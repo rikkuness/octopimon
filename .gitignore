@@ -1,0 +1,7 @@
+.vscode/
+
+*.exe*
+*.log
+*.bat
+
+octopimon

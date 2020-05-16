@@ -112,7 +112,7 @@ func New() (*PiMon, error) {
 		},
 
 		&gowid.ContainerWidget{
-			D:       gowid.RenderWithWeight{W: 1},
+			D:       gowid.RenderWithUnits{U: 12},
 			IWidget: framed.NewUnicode(but),
 		},
 	})
